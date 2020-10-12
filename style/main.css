@@ -1,0 +1,32 @@
+.body-page
+{
+	text-align: center;
+}
+.dev-desc
+{
+	margin: 18px;
+	font-family: sans-serif;
+}
+.button button {
+	border: none;
+	padding: 10px;
+	background-color: rgb(70, 70, 70);
+	color: white;
+}
+.button button:hover {
+	background-color:  rgb(20, 20, 20);
+	color: rgb(200, 200, 200);
+	animation-name: fade;
+	animation-duration: 0.2s;
+	cursor: pointer;
+}
+@keyframes fade {
+	from {
+		background-color: rgb(70, 70, 70);
+		color: white;
+	}
+	to {
+		background-color:  rgb(20, 20, 20);
+		color: rgb(200, 200, 200);
+	}
+}
