@@ -1,17 +1,64 @@
-.body-page
+body
 {
-	text-align: center;
+	background-image: url("../image/background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
-.dev-desc
+.title
 {
-	margin: 18px;
-	font-family: sans-serif;
+	margin-top: 2cm;
+	color: white;
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title-1 {
+	color: white;
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin-top: -35px;
+	opacity: 1;
+}
+.img-icon img
+{
+	width: 0.001px;
+}
+#body-page {
+	margin-top: 1cm;
+	margin-bottom: 0.6cm;
+	margin-right: 10cm;
+	margin-left: 10cm;
+	background-color: black;
+	overflow: hidden;
+	padding: 20px;
+	animation: fade-2 1s;
+	opacity: 0.9;
+}
+@keyframes fade-2
+{
+	from
+	{
+		opacity: 0;
+	}
+	to
+	{
+		opacity: 0.9;
+	}
+}
+.button a {
+	opacity: 1;
+}
+.button {
+	text-align: center;
+	margin-top: 1cm;
+	opacity: 1;
 }
 .button button {
 	border: none;
 	padding: 10px;
 	background-color: rgb(70, 70, 70);
 	color: white;
+	opacity: 1;
 }
 .button button:hover {
 	background-color:  rgb(20, 20, 20);
@@ -19,6 +66,10 @@
 	animation-name: fade;
 	animation-duration: 0.2s;
 	cursor: pointer;
+}
+.info {
+	color: white;
+	opacity: 1;
 }
 @keyframes fade {
 	from {
@@ -28,5 +79,57 @@
 	to {
 		background-color:  rgb(20, 20, 20);
 		color: rgb(200, 200, 200);
+	}
+}
+li {
+	list-style: decimal;
+}
+.button-platfrom
+{
+	text-align: center;
+	margin-top: 20px;
+}
+.button-platfrom button {
+	background: none;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+}
+.button-platfrom button:hover
+{
+	cursor: pointer;
+	background: rgb(20, 20, 20);
+	border-color: rgb(50, 50, 50);
+	animation-name: fade-1;
+	animation-duration: 0.2s;
+}
+@keyframes fade-1 {
+	from {background: none; border-color: white;}
+	to {background: rgb(20, 20, 20); border-color: rgb(50, 50, 50);}
+}
+.button-platfrom img
+{
+	width: 150px;
+}
+.copy
+{
+	text-align: center;
+	margin: 1cm;
+	color: white;
+	font-family: Courier;
+	font-weight: bold;
+}
+.title-2
+{
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}
+@media screen and (max-width: 786px)
+{
+	#body-page {
+		margin-right: 0.2cm;
+		margin-left: 0.2cm;
+		padding: 10px;
 	}
 }
