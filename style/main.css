@@ -99,13 +99,13 @@ li {
 {
 	cursor: pointer;
 	background: rgb(20, 20, 20);
-	border-color: rgb(50, 50, 50);
+	border-color: rgb(80, 80, 80);
 	animation-name: fade-1;
 	animation-duration: 0.2s;
 }
 @keyframes fade-1 {
 	from {background: none; border-color: white;}
-	to {background: rgb(20, 20, 20); border-color: rgb(50, 50, 50);}
+	to {background: rgb(20, 20, 20); border-color: rgb(80, 80, 80);}
 }
 .button-platfrom img
 {
@@ -125,6 +125,28 @@ li {
 	color: white;
 	margin-top: 20px;
 }
+.countdown {
+	margin-top: 1cm;
+	font-size: large;
+	font-weight: bold;
+}
+#kdhfkh {
+	color: white;
+	text-align: center;
+	margin-top: 0.4cm;
+}
+#kdhfkh a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+#kdhfkh a:hover {
+	text-decoration: underline;
+}
+.footer-inner {
+	text-align: center;
+}
+
 @media screen and (max-width: 786px)
 {
 	#body-page {
